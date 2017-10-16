@@ -1,0 +1,3 @@
+Initialize database:
+dotnet ef --startup-project ../api migrations add InitialCreate
+dotnet ef --startup-project ../api database update
